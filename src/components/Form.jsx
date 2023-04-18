@@ -14,7 +14,7 @@ const StyledLable = styled.label`
   margin-bottom: 2.1em;
 `;
 const StyledButton = styled.button`
-  margin-top: 20em;
+  margin-top: 2em;
   margin-bottom: 0.8em;
   width: 19.4em;
   height: 4.4em;
@@ -39,6 +39,10 @@ const formStyle = {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
+};
+const errorStyle = {
+  color: "red",
+  fontSize: "0.8em",
 };
 
 const DishForm = ({ buttonName, props = {} }) => {
@@ -100,7 +104,7 @@ const DishForm = ({ buttonName, props = {} }) => {
                 style={fieldStyle}
               />
               <ErrorMessage name='name' component={() => (
-                  <p>{errors.name}</p>
+                  <p style={errorStyle}>{errors.name}</p>
                 )}/>
             </div>
             <div>
@@ -112,7 +116,7 @@ const DishForm = ({ buttonName, props = {} }) => {
                 style={fieldStyle}
               />
               <ErrorMessage name='price' component={() => (
-                  <p>{errors.price}</p>
+                  <p style={errorStyle}>{errors.price}</p>
                 )}/>
             </div>
             <div>
@@ -124,7 +128,7 @@ const DishForm = ({ buttonName, props = {} }) => {
                 style={fieldStyle}
               />
               <ErrorMessage name='description' component={() => (
-                  <p>{errors.description}</p>
+                  <p style={errorStyle}>{errors.description}</p>
                 )}/>
             </div>
             <div>
@@ -136,7 +140,7 @@ const DishForm = ({ buttonName, props = {} }) => {
                 style={fieldStyle}
               />
               <ErrorMessage name='category' component={() => (
-                  <p>{errors.category}</p>
+                  <p style={errorStyle}>{errors.category}</p>
                 )}/>
             </div>
             <div>
@@ -148,7 +152,7 @@ const DishForm = ({ buttonName, props = {} }) => {
                 style={fieldStyle}
               />
               <ErrorMessage name='picture_url' component={() => (
-                  <p>{errors.picture_url}</p>
+                  <p style={errorStyle}>{errors.picture_url}</p>
                 )}/>
             </div>
             <StyledButton disabled={!isValid} type="submit">{buttonName}</StyledButton>
