@@ -10,6 +10,7 @@ const FoodListWrapper = styled.ul`
   align-items: center;
   justify-content: center;
   max-width: 20.7em;
+  margin-bottom: 3em;
 `;
 const StyledTitle = styled.h1`
   font-style: normal;
