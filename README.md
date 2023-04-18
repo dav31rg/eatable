@@ -3,7 +3,7 @@
 
 <strong>Make everyday cooking fun..!! 😄</strong> App to empower home cooks. 
 
-You can see a list of recipes, create, and update recipes, and cooking tips. Developed on React JS managing an API deployed on herokuapp.com
+You can see a list of recipes, create, and update recipes, and cooking tips. Developed on <strong>React JS</strong> managing an API deployed on herokuapp.com
 
 ## Dependecies
 - [emotion v11.10.6](https://emotion.sh/docs/introduction)
