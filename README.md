@@ -20,6 +20,4 @@ $ npm install
 $ npm run dev
 ```
 ## Work flow
-![eatable](https://user-images.githubusercontent.com/103447091/232903901-b9f31051-ed07-45e5-959c-42eb14641023.gif)
-
-
+![eatable-gif](https://user-images.githubusercontent.com/103447091/232905915-c6ebf580-1384-495f-95ae-1a8ae4760eb7.gif)
