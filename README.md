@@ -19,8 +19,7 @@ $ npm install
 ```bash
 $ npm run dev
 ```
-### Main Page
-![image](https://user-images.githubusercontent.com/103447091/232845758-3cba22cc-3bcf-47cb-afac-5e11cb46a259.png)
-
+## Work flow
+![eatable](https://user-images.githubusercontent.com/103447091/232903901-b9f31051-ed07-45e5-959c-42eb14641023.gif)
 
 
